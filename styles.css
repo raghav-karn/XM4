@@ -41,3 +41,63 @@
 --z-tooltip: 10;
 --z-fixed: 100;
 }
+
+@media screen and (min-width: 968px) {
+:root {
+    --biggest-font-size: 7.5rem;
+    --bigger-font-size: 4.5rem;
+    --big-font-size: 4rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+}
+}
+
+/*=============== BASE ===============*/
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: var(--header-height) 0 0 0;
+font-family: var(--body-font);
+font-size: var(--normal-font-size);
+background-color: var(--body-color);
+color: var(--text-color);
+}
+
+h1, h2, h3 {
+color: var(--title-color);
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+button,
+input {
+border: none;
+outline: none;
+}
+
+button {
+cursor: pointer;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+  
