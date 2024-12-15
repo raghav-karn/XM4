@@ -407,6 +407,7 @@ line-height: 4rem;
 grid-template-columns: repeat(2, 1fr);
 gap: 5rem 1.5rem;
 padding-top: 3rem;
+padding-bottom: 7rem;
 }
 
 .products__card {
@@ -443,11 +444,15 @@ font-weight: var(--font-semi-bold);
 position: absolute;
 right: .5rem;
 bottom: .5rem;
-padding: .5rem;
+padding: .4rem;
 border-radius: .35rem;
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+background-color: #444431;
+}
+
 .footer__container {
 grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 row-gap: 2rem;
@@ -461,6 +466,7 @@ width: 2rem;
 font-size: var(--h3-font-size);
 font-weight: var(--font-medium);
 margin-bottom: var(--mb-1);
+color: #8d8d67;
 }
 
 .footer__links {
@@ -470,7 +476,7 @@ row-gap: .5rem;
 }
 
 .footer__link {
-color: #444444;
+color: #beb4a2;
 }
 
 .footer__link:hover {
@@ -480,8 +486,6 @@ color: #7a7249;
 .footer__form {
 display: flex;
 column-gap: .5rem;
-background-color: #8d8455;
-padding: .5rem .75rem;
 border-radius: .5rem;
 margin-bottom: var(--mb-2);
 }
@@ -493,7 +497,7 @@ color: #8d8d67;
 }
 
 .footer__input::placeholder {
-color: #444431;
+color: #e4e496;
 font-size: var(--normal-font-size);
 font-family: var(--body-font);
 }
@@ -506,7 +510,7 @@ column-gap: 1.25rem;
 .footer__social-link {
 display: inline-flex;
 color: #4e4e4e;
-background-color: #444431;
+background-color: #bdbd73;
 padding: .5rem;
 border-radius: .25rem;
 font-size: 1rem;
