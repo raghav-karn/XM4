@@ -70,12 +70,12 @@ body {
 margin: var(--header-height) 0 0 0;
 font-family: var(--body-font);
 font-size: var(--normal-font-size);
-background-color: var(--body-color);
-color: var(--text-color);
+background-color: #d6d2b8;
+color: #5c5c5c;
 }
 
 h1, h2, h3 {
-color: var(--title-color);
+color: #4e4e4e;
 }
 
 ul {
@@ -160,14 +160,14 @@ width: 1.5rem;
 
 .nav__toggle {
 font-size: 1.2rem;
-color: var(--white-color);
+color: #444431;
 cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
 .nav__menu {
     position: fixed;
-    background-color: var(--body-color);
+    background-color: #d6d2b8;
     top: -100%;
     left: 0;
     width: 100%;
@@ -206,7 +206,7 @@ position: absolute;
 font-size: 1.5rem;
 top: 1rem;
 right: 1rem;
-color: var(--white-color);
+color: #444431;
 cursor: pointer;
 }
 
@@ -217,7 +217,7 @@ top: 0;
 
 /* Change background header */
 .scroll-header {
-background-color: var(--body-color);
+background-color: #a6a081;
 }
 
 /* Active link */
@@ -281,8 +281,8 @@ margin-left: var(--mb-0-75);
 /*=============== BUTTONS ===============*/
 .button {
 display: inline-block;
-background-color: var(--black-color);
-color: var(--white-color);
+background-color: #444431;
+color: #f7f7d4;
 padding: 1rem 1.25rem;
 border-radius: .5rem;
 transition: .3s;
@@ -330,7 +330,7 @@ row-gap: .25rem;
 
 .specs__icon {
 font-size: 1.2rem;
-color: var(--white-color);
+color: #444431;
 }
 
 .specs__title {
@@ -377,7 +377,7 @@ line-height: var(--text-line-height);
 /*=============== DISCOUNT ===============*/
 .discount__container {
 position: relative;
-background-color: var(--container-color);
+background-color: #bbbb95;
 padding: 2rem 1.5rem;
 border-radius: .75rem;
 }
@@ -412,7 +412,7 @@ padding-top: 3rem;
 .products__card {
 position: relative;
 height: 132px;
-background-color: var(--container-color);
+background-color: #bbbb95;
 padding: .75rem;
 border-radius: .5rem;
 display: grid;
@@ -470,30 +470,30 @@ row-gap: .5rem;
 }
 
 .footer__link {
-color: var(--text-color);
+color: #444444;
 }
 
 .footer__link:hover {
-color: var(--white-color);
+color: #7a7249;
 }
 
 .footer__form {
 display: flex;
 column-gap: .5rem;
-background-color: var(--container-color);
+background-color: #8d8455;
 padding: .5rem .75rem;
 border-radius: .5rem;
 margin-bottom: var(--mb-2);
 }
 
 .footer__input {
-background-color: var(--container-color);
+background-color: #8d8455;
 width: 90%;
-color: var(--white-color);
+color: #8d8d67;
 }
 
 .footer__input::placeholder {
-color: var(--text-color);
+color: #444431;
 font-size: var(--normal-font-size);
 font-family: var(--body-font);
 }
@@ -505,15 +505,15 @@ column-gap: 1.25rem;
 
 .footer__social-link {
 display: inline-flex;
-color: var(--white-color);
-background-color: var(--container-color);
+color: #4e4e4e;
+background-color: #444431;
 padding: .5rem;
 border-radius: .25rem;
 font-size: 1rem;
 }
 
 .footer__social-link:hover {
-background-color: var(--black-color);
+background-color: #8d8455;
 }
 
 .footer__copy {
@@ -523,7 +523,7 @@ text-align: center;
 
 .footer__copy-link {
 font-size: var(--smaller-font-size);
-color: var(--text-color-light);
+color: #bbbb95;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -532,7 +532,7 @@ position: fixed;
 right: 1rem;
 bottom: -20%;
 display: flex;
-background-color: var(--container-color);
+background-color: #444431;
 border-radius: .25rem;
 padding: .45rem;
 opacity: 9;
@@ -541,12 +541,12 @@ transition: .4s;
 }
 
 .scrollup:hover {
-background-color: var(--black-color);
+background-color: #8d8d67;
 opacity: 1;
 }
 
 .scrollup__icon {
-color: var(--white-color);
+color: #f5f5be;
 font-size: 1.35rem;
 }
 
