@@ -613,3 +613,50 @@ background-color: var(--scroll-thumb-color-alt);
       justify-content: center;
     }
 }  
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .home__container {
+      grid-template-columns: .8fr 1fr;
+    }
+    .home__data {
+      padding-top: 2rem;
+    }
+    .home__img {
+      top: -7rem;
+      left: 0;
+    }
+    .specs__img {
+      position: initial;
+    }
+    .specs__container {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
+    .case__img {
+      position: initial;
+    }
+    .case__data {
+      padding: 0;
+    }
+    .case__container {
+      grid-template-columns: max-content 250px;
+      justify-content: center;
+      align-items: center;
+      column-gap: 2rem;
+    }
+    .discount__img {
+      position: initial;
+    }
+    .discount__container {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
+    .products__container {
+      grid-template-columns: repeat(3, 142px);
+      justify-content: center;
+    }
+}
+  
