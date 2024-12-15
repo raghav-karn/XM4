@@ -353,3 +353,48 @@ top: 2rem;
 right: -4rem;
 }
   
+/*=============== CASE ===============*/
+.case__container {
+position: relative;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.case__data {
+padding: 5rem 0 3rem;
+}
+
+.case__img {
+width: 250px;
+position: absolute;
+left: -7rem;
+}
+
+.case__description {
+margin-bottom: var(--mb-1-5);
+line-height: var(--text-line-height);
+}
+
+/*=============== DISCOUNT ===============*/
+.discount__container {
+position: relative;
+background-color: var(--container-color);
+padding: 2rem 1.5rem;
+border-radius: .75rem;
+}
+
+.discount__title {
+font-size: var(--h3-font-size);
+margin-bottom: var(--mb-0-75);
+}
+
+.discount__description {
+margin-bottom: var(--mb-1);
+}
+
+.discount__img {
+width: 300px;
+position: absolute;
+top: 4rem;
+right: -11rem;
+}
+  
