@@ -119,4 +119,29 @@ color: transparent;
 -webkit-background-clip: text;
 background-clip: text;
 }
-  
+
+/*=============== LAYOUT ===============*/
+.main {
+overflow: hidden;
+}
+
+.container {
+max-width: 968px;
+margin-left: var(--mb-1-5);
+margin-right: var(--mb-1-5);
+}
+
+.grid {
+display: grid;
+}
+
+/*=============== HEADER ===============*/
+.header {
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: var(--z-fixed);
+background: transparent;
+}
+
